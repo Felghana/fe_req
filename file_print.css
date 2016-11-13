@@ -1,0 +1,45 @@
+a:hover{text-decoration:underline;}
+body{background:#fff;color:#000}
+p{margin:0 0 10px;}
+
+#header{clear: both;float:left;border-bottom:2px solid #28398a;font:12px arial,helvetica,sans-serif;width:100%;text-align:center;}
+#footer{clear: both;float:left;border-top:2px solid #28398a;font:12px arial,helvetica,sans-serif;width:100%;text-align:center;}
+#header p,#footer p{margin-bottom:5px;}
+
+.righttext{float:right;text-align:right;padding:0 10px;}
+.lefttext{float:left;text-align:left;padding:0 10px;}
+
+#variable {clear: both;padding:10px 10px 10px 10px; font:12px arial,helvetica,sans-serif;max-width:1000px;}
+#fixedwidth {clear: both;padding:10px 10px 10px 10px; font:12px courier,monospace;}
+
+.ffaq	div.ftoc    { margin: 10px}
+.ffaq   div.section_box { overflow:hidden; clear: left; margin: 15px; padding: 5px; border-width: 1px; border-style: solid;}
+.ffaq   h2 {overflow:hidden; border-width: 0px 0px 2px 0px; border-style: solid; border-color: black;}
+.ffaq   h3 {overflow:hidden; text-color: black; border-width: 0px 0px 1px 0px; border-style: dashed; border-color: gray;}
+.ffaq	table { width: auto; border-width: 2px;border-style: solid; border-collapse:collapse;}
+.ffaq	td    { border-width: 1px; border-style: solid; }
+.ffaq	th    { font-weight:bold; border-width: 1px; border-style: solid; }
+.ffaq	div.section { margin: 10px}
+.ffaq	div.fimg    { font-size: 10px; border-width: 1px; border-style: solid; float:right; clear:right; margin: 10px; padding: 2px;}
+.ffaq	img.fimg    { width: auto; }
+.ffaq	img.imgleft {float:left;margin-right:10px;}
+.ffaq	img.imgright {float:right;margin-left:10px;}
+.ffaq	img.fimg_small, .ffaq img.fimg_large, .ffaq img.cimg_s, .ffaq img.cimg_l {height:auto;width:auto;max-width:100%;}
+.ffaq	div.fimg_small, .ffaq div.fimg_smallleft, .ffaq div.fimg_smallright, .ffaq div.fimg_large, .ffaq div.fimg_largeleft, .ffaq div.cimg_s, .ffaq div.cimg_l {border:1px solid black;padding:2px;font-size:10px;}
+.ffaq	div.fimg_smallright, .ffaq div.cimg_sright {clear:right;float:right;margin:10px 10px 10px 20px;max-width:300px;}
+.ffaq   h5       {font-weight: normal; }
+.ffaq   h6 {font-size:13px;margin:5px 0;}
+.ffaq   dl  dl   {text-indent:20px; }
+.ffaq   dl  dl  dl {text-indent:40px; }
+.ffaq   dl  dl  dl dl {text-indent:60px; }
+.ffaq	hr, .ffaq pre {margin-bottom:18px;clear:both;}
+.ffaq	p {line-height:18px;}
+
+div > h2{
+    font-weight: bold;
+}
+
+
+div.entry {
+    page-break-inside:avoid;
+}
